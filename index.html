@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineer | Nagpur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin=""></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Data Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Nagpur city and nearby areas",
+            "addressLocality": "Nagpur",
+            "addressRegion": "Maharashtra",
+            "postalCode": "440001",
+            "addressCountry": "India"
+        },
+        "telephone": "+91 1234567890",
+        "openingHours": "Monday to Friday: 9am - 5pm",
+        "services": ["Data Engineering", "Data Analysis", "Machine Learning", "Data Visualization", "Data Science"]
+    }
+    </script>
+</head>
+<body>
+    <nav class="sticky top-0 z-50 bg-white shadow-md transition-all" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center py-4">
+            <a href="#" class="text-2xl font-bold text-gray-800">Data Engineer</a>
+            <div class="hidden md:flex space-x-6"><a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a><a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a><a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition">Reviews</a><a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a></div>
+            <button class="md:hidden text-2xl" id="hamburger">☰</button>
+        </div>
+        <div class="hidden bg-white border-t md:hidden px-6 py-4 space-y-3" id="mobile-menu"><a href="#services" class="block text-gray-600 hover:text-blue-600">Services</a><a href="#about" class="block text-gray-600 hover:text-blue-600">About</a><a href="#testimonials" class="block text-gray-600 hover:text-blue-600">Reviews</a><a href="#contact" class="block text-gray-600 hover:text-blue-600">Contact</a></div>
+    </nav>
+    <section class="h-[80vh] bg-gradient-to-r from-blue-500 to-blue-700 py-16" id="hero">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold">Data Engineering Services</h1>
+            <p class="text-2xl md:text-3xl font-semibold py-4">Get expert data engineering services in Nagpur</p>
+            <a href="#contact" class="bg-blue-800 hover:bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg">Contact Us</a>
+        </div>
+    </section>
+    <section class="py-16" id="services">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">📊</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Data Analysis</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our data analysis services help you make informed decisions. We analyze your data to identify trends and patterns, and provide actionable insights to drive business growth.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">🤖</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Machine Learning</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our machine learning services help you build predictive models that drive business outcomes. We develop and deploy custom machine learning models that solve real-world problems.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">📈</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Data Visualization</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our data visualization services help you communicate complex data insights to your stakeholders. We create interactive and dynamic visualizations that tell a story with your data.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">📊</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Data Science</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our data science services help you extract insights from your data. We develop and deploy custom data science solutions that drive business outcomes.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">📈</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Data Engineering</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our data engineering services help you design, build, and maintain large-scale data systems. We develop and deploy custom data engineering solutions that drive business outcomes.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">📊</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Business Intelligence</h4>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Our business intelligence services help you make data-driven decisions. We develop and deploy custom business intelligence solutions that drive business outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16" id="testimonials">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">R</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Rahul Sharma</h4>
+                            <div class="text-yellow-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"I was impressed with the quality of work and the professionalism of the team. They delivered high-quality data engineering services that met my expectations."</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">P</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Priya Patel</h4>
+                            <div class="text-yellow-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"The team was very responsive and communicated well throughout the project. They delivered high-quality data analysis services that helped me make informed decisions."</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-xl font-bold text-blue-600">A</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Amit Kumar</h4>
+                            <div class="text-yellow-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"I was very satisfied with the machine learning services provided by the team. They developed a custom model that drove business outcomes and exceeded my expectations."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16" id="about">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-8">About Us</h2>
+            <p class="text-gray-600 text-center">We are a team of experienced data engineers and scientists who are passionate about delivering high-quality data engineering services. We have worked with various clients across different industries and have helped them drive business outcomes through data-driven decisions.</p>
+            <p class="text-gray-600 text-center">We are committed to providing excellent customer service and ensuring that our clients are satisfied with our services. We believe in building long-term relationships with our clients and helping them achieve their goals through data engineering.</p>
+            <div class="flex justify-center mb-8">
+                <div class="bg-yellow-100 p-2 rounded-lg mr-4">
+                    <span class="text-yellow-600 font-bold">⭐ 500+ Happy Customers</span>
+                </div>
+                <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                    <span class="text-blue-600 font-bold">🏆 10+ Years of Experience</span>
+                </div>
+                <div class="bg-green-100 p-2 rounded-lg">
+                    <span class="text-green-600 font-bold">🌟 95% Customer Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16" id="contact">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+            <div class="md:grid md:grid-cols-2 gap-6">
+                <form action="https://formspree.io/f/xbdzenyd" method="POST" id="contact-form" class="space-y-4">
+                    <input type="hidden" name="_subject" value="New inquiry from  website">
+                    <input type="hidden" name="_replyto" value="">
+                    <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border rounded-lg focus:ring-2 outline-none">
+                    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-3 border rounded-lg focus:ring-2 outline-none">
+                    <textarea name="message" placeholder="Your Message" rows="4" required class="w-full p-3 border rounded-lg focus:ring-2 outline-none"></textarea>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg">Send Message</button>
+                    <p id="form-status" class="text-center font-semibold hidden"></p>
+                </form>
+                <div class="text-gray-600">
+                    <h3 class="font-semibold text-gray-800 mb-4">Business Information</h3>
+                    <p class="mb-2">📞 +91 1234567890</p>
+                    <p class="mb-2">📧 </p>
+                    <p class="mb-2">📍 Nagpur city and nearby areas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-gray-50" id="map">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Location</h2>
+            <div id="map" class="rounded-xl shadow-lg overflow-hidden" style="height:400px"></div>
+        </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">Data Engineer</h3>
+                <p class="text-sm">We provide high-quality data engineering services to help businesses drive growth and make informed decisions.</p>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#hero" class="hover:text-white">Home</a></li>
+                    <li><a href="#services" class="hover:text-white">Services</a></li>
+                    <li><a href="#about" class="hover:text-white">About</a></li>
+                    <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-semibold mb-4">Contact</h3>
+                <p class="text-sm mb-2">📞 +91 1234567890</p>
+                <p class="text-sm mb-2">📧 </p>
+                <p class="text-sm">📍 Nagpur city and nearby areas</p>
+            </div>
+        </div>
+        <div class="text-center text-gray-500 text-sm mt-8 border-t border-gray-700 pt-6">© 2025 Data Engineer. All rights reserved.</div>
+    </footer>
+    <a href="https://wa.me/911234567890?text=Hello%2C%20I%20found%20you%20online" target="_blank"
+       class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-2xl transition-all" aria-label="Chat on WhatsApp">
+       💬
+    </a>
+    <script>
+        document.getElementById('hamburger').addEventListener('click',function(){document.getElementById('mobile-menu').classList.toggle('hidden')})
+        document.getElementById('contact-form').addEventListener('submit',function(e){e.preventDefault();var f=this;var s=document.getElementById('form-status');fetch('https://formspree.io/f/xbdzenyd',{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){f.reset();s.textContent='✅ Message sent!';s.className='text-center font-semibold text-green-600 py-4'}else{s.textContent='❌ Error, try again.';s.className='text-center font-semibold text-red-600 py-4'}}).catch(function(){s.textContent='❌ Error, try again.';s.className='text-center font-semibold text-red-600 py-4'})})
+        var map = L.map('map').setView([21.1458, 79.0882], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+            subdomains: ['a', 'b', 'c']
+        }).addTo(map);
+        L.marker([21.1458, 79.0882]).addTo(map).bindPopup('Data Engineer');
+    </script>
+</body>
+</html>
