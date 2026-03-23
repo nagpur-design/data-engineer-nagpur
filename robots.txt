@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nagpur-design.github.io/data-engineer-nagpur/sitemap.xml
